@@ -1,0 +1,87 @@
+body {
+	color: rgb(255, 255, 255);
+	background: #e2e5e4;
+	font-family: 'Roboto', sans-serif;
+}
+.pad-section{
+    padding: 10px;
+    background: rgb(31, 197, 209);
+    background-clip: padding-box;
+}
+
+.form-control, .form-control:focus, .input-group-text {
+	border-color: #e1e1e1;
+}
+.form-control, .btn {        
+	border-radius: 3px;
+}
+
+.signup-form form {
+	color: rgb(252, 249, 249);
+	border-radius: 3px;
+	margin-bottom: 51px;
+	background: #fff;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+.signup-form {
+	width: 350px;
+	margin:  auto;
+	padding: 5px ;		
+}
+.signup-form h2 {
+	text-align: center;
+	font-size: 20px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.signup-form .form-group {
+	margin-bottom: 20px;
+}
+	
+.form-group .btn  {        
+	font-size: 16px;
+	font-weight: bold;
+	background: rgb(31, 197, 209)!important;
+	border: none;
+	min-width: 280px;
+}
+.signup-form .hint-text {
+	color: #999;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.or-seperator {
+	margin: 50px 0 15px;
+	text-align: center;
+	border-top: 1px solid #e0e0e0;
+}
+.or-seperator b {
+	padding: 0 10px;
+	width: 40px;
+	height: 40px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+	background: rgb(165, 160, 160);
+	display: inline-block;
+	border: 1px solid #e0e0e0;
+	border-radius: 50%;
+	position: relative;
+	top: -22px;
+	z-index: 1;
+}
+
+.signup-form .social-btn .btn-info {
+	background: #507cc0;
+	min-width: 280px;
+}
+.signup-form .social-btn .btn-danger {
+	min-width: 280px;
+}
+.signup-form .social-btn .btn-primary {
+	background: #e2df18;
+	border: 1px solid #cce928;
+	min-width: 280px;
+}
+
